@@ -9,7 +9,7 @@ class API_SC extends React.Component {
             items: []
         };
     }
-    */
+    
 
     componentDidMount() {
         const script = document.createElement("script");
@@ -21,11 +21,11 @@ class API_SC extends React.Component {
         fetch('https://soundcloud.com/rats-infestationofficial/rats-pomaro-12/s-geCch')
         .then(response => console.log('response', response));
     }
-
+    */
     render() {
         return(
             <div>
-
+                Batata
             </div>
         )
     }
