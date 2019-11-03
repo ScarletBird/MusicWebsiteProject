@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Atrobia;
+  src: url(assets/Astrobia.ttf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,3 +16,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+div.MainNavbar{
+  font-family: Atrobia;
+
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  font-size: 40px;
+  margin-top: 0;
+  background-color: #3E4450;
+  
+}
+
+div.navbar{
+  margin-top: 15px;
+  padding: 0;
+  float: left;
+  display: inline-block;
+}
+
+ul.navbar {
+  list-style-type: none;
+  background-color: #3E4450;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.navbar {
+  color: whitesmoke;
+  /*display: inline;*/
+  float: right;
+}
+
+a.navbar {
+  /*color: whitesmoke;
+  text-indent: 20px;
+  padding: 30px;*/
+  background-color: #3E4450;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+a.navbarImg {
+  background-color: #3E4450;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #2B2F37;
+}
+
+
