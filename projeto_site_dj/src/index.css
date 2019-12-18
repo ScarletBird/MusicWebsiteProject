@@ -17,9 +17,17 @@ code {
     monospace;
 }
 
+a.logo-title:hover{
+  color: white;
+  background-color: #343a40 !important;
+}
 
 div.MainNavbar{
   font-family: Atrobia;
+  font-size: 40px;
+
+}
+/*
 
   position: fixed;
   width: 100%;
@@ -27,6 +35,7 @@ div.MainNavbar{
   top: 0;
   font-size: 40px;
   margin-top: 0;
+  left:0;
   background-color: #3E4450;
   
 }
@@ -46,22 +55,22 @@ ul.navbar {
   overflow: hidden;
 }
 
-li.navbar {
-  color: whitesmoke;
-  /*display: inline;*/
-  float: right;
-}
-
-a.navbar {
+a.navbar { */
   /*color: whitesmoke;
   text-indent: 20px;
   padding: 30px;*/
+  /*
   background-color: #3E4450;
   display: block;
   color: white;
   text-align: center;
   padding: 15px 16px;
   text-decoration: none;
+}
+*/
+a {
+  color: white;
+  border: 10px;
 }
 
 a.navbarImg {
@@ -74,6 +83,7 @@ a.navbarImg {
 }
 
 a:hover {
+  color: gray;
   background-color: #2B2F37;
 }
 
