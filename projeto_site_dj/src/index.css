@@ -16,29 +16,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+nav{
+  font-family: Atrobia;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
 @media only screen and (max-width: 600px){
-  div.MainNavbar{
-    font-family: Atrobia;
-    font-size: 20px;
-    vertical-align: 10px;
-    width: 90%;
-    height: 90%;
-    right: 0;
-  }
-
-  .parentBar{
-
-  } 
-
   .logo{
     width: 50px;
     height: 50px;
-    text-align: center;
+    left: 50%;
+    margin-left: -25px;
   }
   div.title{
     left: 0px;
   }
 }
+
+
 a.logo-title:hover{
   color: white;
   background-color: #343a40 !important;
@@ -51,47 +48,7 @@ div.MainNavbar{
   height: 90%;
   position: relative;
 }
-/*
 
-  position: fixed;
-  width: 100%;
-  height: 100px;
-  top: 0;
-  font-size: 40px;
-  margin-top: 0;
-  left:0;
-  background-color: #3E4450;
-  
-}
-
-div.navbar{
-  margin-top: 15px;
-  padding: 0;
-  float: left;
-  display: inline-block;
-}
-
-ul.navbar {
-  list-style-type: none;
-  background-color: #3E4450;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-a.navbar { */
-  /*color: whitesmoke;
-  text-indent: 20px;
-  padding: 30px;*/
-  /*
-  background-color: #3E4450;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-}
-*/
 a {
   color: white;
   border: 10px;
