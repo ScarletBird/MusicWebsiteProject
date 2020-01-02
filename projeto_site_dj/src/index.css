@@ -39,6 +39,22 @@ nav{
   }
 }
 
+@media only screen and (min-width: 600px){
+  div.collapse{
+    margin-left: auto;
+    margin-right: 0rem;
+  }
+  .navbar-brand{
+    left: 0px;
+    font-size: 30px;
+    font-size: 1.75rem;
+  }
+  nav{
+    font-size: 30px;
+    font-size: 1.75rem;
+  }
+}
+
 
 a.logo-title:hover{
   color: white;

@@ -6,7 +6,7 @@ class TitleHead extends React.Component {
         return(
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark parentBar">
                 <a href="#home" className="navbar-brand logo-title">ËSGÖTö</a>
-                <a href="#home" className="navbar-item logo-title">
+                <a href="#home" className="navbar-item logo-title logo">
                     <img src={esgotoLogo} className="logo" alt="Esgoto" width="70px" height="70px"/>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
